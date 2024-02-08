@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "google_credentials",
+  "info": {
+    "singularName": "google-credential",
+    "pluralName": "google-credentials",
+    "displayName": "Google Credential",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "client_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
