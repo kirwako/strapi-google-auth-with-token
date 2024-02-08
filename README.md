@@ -1,13 +1,13 @@
 # GoogleAuth
 
-Google auth with token helps you to easily create google authentication available for your users with idToken. It uses the official google-auth-library library to execute the actions and verify the token. You can get it working in seconds in your application. EASY!
+Google auth with token helps you to easily create google authentication available for your users using Sign In With Google button. It uses the official google-auth-library library to execute the actions and verify the token. You can get it working in seconds 🫰.
 
 ![Dashboard Screenshot](https://github.com/kirwako/strapi-google-auth-with-token/blob/main/screenshots/screen.png)
 
 # Features
 
 -   Official GoogleAPIs integration
--   One Tap support using token [One Tap](https://developers.google.com/identity/gsi/web/guides/features)
+-   One Tap support using idToken [One Tap](https://developers.google.com/identity/gsi/web/guides/features)
 -   Using strapi default user-permission collection
 -   JWT Authentication
 -   Sanitized response
