@@ -31,6 +31,15 @@ module.exports = {
 		enabled: true,
 	},
 };
+
+// or in typescript for config/plugins.ts
+export default () => ({
+  "strapi-google-auth-with-token": {
+    enabled: true,
+    resolve: "./src/plugins/strapi-google-auth-with-token",
+  },
+});
+
 ```
 
 # Configuration
