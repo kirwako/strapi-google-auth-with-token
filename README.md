@@ -55,7 +55,7 @@ export default () => ({
 ```js
     {
         method: 'POST',
-        path: 'STRAPI_BACKEND_URL/strapi-google-auth-with-token/auth',
+        path: 'STRAPI_BACKEND_URL/strapi-google-auth-with-token/auth', // like: http://localhost:1337/strapi-google-auth-with-token/auth
         data: {
             token: idToken // get the token from the google sign-in button
         }
