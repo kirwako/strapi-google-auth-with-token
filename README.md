@@ -36,7 +36,6 @@ module.exports = {
 export default () => ({
   "strapi-google-auth-with-token": {
     enabled: true,
-    resolve: "./src/plugins/strapi-google-auth-with-token",
   },
 });
 
