@@ -12,6 +12,8 @@ Google auth with token helps you to easily create google authentication availabl
 -   JWT Authentication
 -   Sanitized response
 -   Highly secure
+-   Save user first and last name of the user in strapi user entity
+-   Save user gmail profile picture of the user in strapi user entity
 
 # Activate the Plugin
 
@@ -62,8 +64,12 @@ export default () => ({
     }
 ```
 
-## PS: if you want to save the first and last name of the user
-add `firstName` and `lastName` attributes to user entity in `Content Type Builder`
+## If you want to save user data in strapi user entity
+- Add `firstName` short text field to user entity in `Content Type Builder` to save the first name of the user
+
+- Add `lastName` short text field to user entity in `Content Type Builder` to save the last name of the user 
+- Add `picture` single media field to user entity in `Content Type Builder` to save the profile picture of the user 
+
 
 # Report Bugs/Issues
 

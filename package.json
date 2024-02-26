@@ -1,6 +1,6 @@
 {
 	"name": "strapi-google-auth-with-token",
-	"version": "2.0.2",
+	"version": "3.0.2",
 	"description": "Google auth with token helps you to easily create google authentication available for your users with idToken. It uses the official google-auth-library library to execute the actions. You can get it working in seconds in your application. EASY!",
 	"strapi": {
 		"name": "strapi-google-auth-with-token",
@@ -20,7 +20,7 @@
 		"google-auth-library": "^9.6.3"
 	},
 	"devDependencies": {
-    "@strapi/typescript-utils": "^4.6.0",
+		"@strapi/typescript-utils": "^4.6.0",
 		"@types/node": "^20.11.16",
 		"@types/react": "^17.0.53",
 		"@types/react-dom": "^18.0.28",
@@ -33,7 +33,7 @@
 		"typescript": "5.0.4"
 	},
 	"peerDependencies": {
-    "@strapi/strapi": "^4.20.0",
+		"@strapi/strapi": "^4.20.0",
 		"react": "^17.0.0 || ^18.0.0",
 		"react-dom": "^17.0.0 || ^18.0.0",
 		"react-router-dom": "^5.2.0",
